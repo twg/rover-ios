@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Rover"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Rover iOS SDK for using the Rover platform."
   s.description      = <<-DESC
                        	The Rover iOS SDK enables proximity, location based and scheduled messaging via the Rover platform.
