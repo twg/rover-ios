@@ -64,6 +64,6 @@ class AssetManager {
     // MARK: Helpers
     
     func cacheKey(url url: NSURL) -> String {
-        return url.absoluteString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) ?? url.absoluteString
+        return url.absoluteString!.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) ?? url.absoluteString
     }
 }
