@@ -265,7 +265,7 @@ extension Block.Action : Serializable {
         case .Deeplink(let url):
             return [
                 "type": "open-url",
-                "url": url.absoluteString
+                "url": url.absoluteString!
             ]
         default:
             return [:]

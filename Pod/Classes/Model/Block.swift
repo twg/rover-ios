@@ -120,7 +120,7 @@ class TextBlock: Block {
                     var descriptor = font.fontDescriptor()
                     
                     if traits.contains(.TraitItalic) {
-                        descriptor = descriptor.fontDescriptorWithSymbolicTraits(.TraitItalic)
+                        descriptor = descriptor.fontDescriptorWithSymbolicTraits(.TraitItalic)!
                     }
                     
                     let newFont = UIFont(descriptor: descriptor, size: font.pointSize)
